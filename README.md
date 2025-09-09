@@ -1,3 +1,9 @@
+## Deploy Via Buttons
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://www.heroku.com/deploy?template=https://github.com/gajendrajangid83/OSINET_MAX)
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/xpingpongx/Extractor-V3&template=https://github.com/gajendrajangid83/OSINET_MAX)
+
 # Telegram Phone Tracer & Vehicle Lookup Bot
 
 A comprehensive Telegram bot that provides phone number tracing and vehicle registration lookup services with advanced image processing capabilities.
