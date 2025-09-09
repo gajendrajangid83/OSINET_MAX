@@ -11,8 +11,8 @@ class Config:
     
     def __init__(self):
         # Bot configuration
-        self.BOT_TOKEN = os.getenv('BOT_TOKEN', '')
-        self.ADMIN_ID = int(os.getenv('ADMIN_ID', '0'))
+        self.BOT_TOKEN = os.getenv('BOT_TOKEN', '7871986729:AAGnh_bDxosgxMXdObBVxr3ZAkp-6oKNWFg')
+        self.ADMIN_ID = int(os.getenv('ADMIN_ID', '1783306092'))
         
         # Validate required environment variables
         if not self.BOT_TOKEN:
@@ -24,18 +24,18 @@ class Config:
         self.REQUIRED_CHANNELS = [
             {
                 'name': 'Bots Update Channel',
-                'username': '@DONATE_ARMY_BOTS',
-                'url': 'https://t.me/DONATE_ARMY_BOTS'
+                'username': '@RPSC_UPSC_CURRENT',
+                'url': 'https://t.me/RPSC_UPSC_CURRENT'
             },
             {
                 'name': 'Main Channel',
                 'username': None,
-                'url': 'https://t.me/+TEOLVuOuPl01Y2U1'
+                'url': 'https://t.me/RPSC_UPSC_CURRENT'
             },
             {
                 'name': 'Join Must Channel',
                 'username': None,
-                'url': 'https://t.me/DonateMod'
+                'url': 'https://t.me/RPSC_UPSC_CURRENT'
             }
         ]
         
